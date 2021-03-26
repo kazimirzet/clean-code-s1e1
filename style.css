@@ -29,7 +29,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label,.task-input {
+.task-label,
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -41,10 +42,12 @@
   margin: 0;
   padding: 0px;
 }
-.list-item, .heading {
+.list-item, 
+.heading {
   list-style: none;
 }
-.input,.button {
+.input,
+.button {
   outline: none;
 }
 .button {
@@ -134,7 +137,8 @@
 }
 
 /* Completed */
-.incomplite-list .list-item__label {
+.incomplite-list 
+.list-item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -144,11 +148,13 @@
   display: none;
 }
 
-.list-item_edit .list-item__input {
+.list-item_edit 
+.list-item__input {
   display: inline-block;
   width: 224px;
 }
 
-.list-item_edit .list-item__label {
+.list-item_edit 
+.list-item__label {
   display: none;
 }
